@@ -6,7 +6,7 @@ function Projects() {
     <>
         <div name="projects"></div>
         <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 py-9'>
-            <h3 className='text-3xl font-semibold text-center'>Projects</h3>
+            <h3 className='text-4xl font-semibold text-center'>Projects</h3>
             <main className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-20'>
                 <a target='_blank' href='https://www.potiphar.org/' rel='noreferrer'>
                     <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>

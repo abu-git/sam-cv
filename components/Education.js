@@ -6,7 +6,7 @@ function Education() {
     <>
         <div name="education"></div>
         <div className='px-8 md:px-14 py-9 bg-amber-100 text-black dark:bg-stone-900 dark:text-white'>
-            <h3 className='text-3xl font-semibold text-center'>Education</h3>
+            <h3 className='text-4xl font-semibold text-center'>Education</h3>
             <main className='mt-7 grid grid-cols-1 md:grid-cols-2 gap-8'>
                 <div className='w-full overflow-hidden rounded-lg shadow-lg flex bg-amber-50 dark:bg-stone-700'>
                     <div className='w-1/3'>
