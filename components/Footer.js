@@ -45,7 +45,7 @@ function Footer() {
             </a>
             
         </div>
-        <h3 className='text-lg font-light text-center mt-7'>Design by Samuel Abu</h3>
+        <h3 className='text-lg font-light text-center mt-7'>2022 Design by Samuel Abu</h3>
     </div>
   )
 }
