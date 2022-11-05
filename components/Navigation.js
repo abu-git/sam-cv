@@ -1,12 +1,39 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
+import { useTheme } from 'next-themes'
+import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
 
 function Navigation() {
     //sidebar state
     const [showSideBar, setShowSideBar] = useState(false)
 
+    //dark theme config
+    const { systemTheme, theme, setTheme } = useTheme()
+    const [mounted, setMounted] = useState(false)
+
+    useEffect(() => {
+        setMounted(true)
+    }, [])
+
+    //theme changer config
+    const renderThemeChanger = () => {
+        if(!mounted) return null
+
+        const currentTheme = theme === 'system' ? systemTheme : theme
+
+        if(currentTheme === 'dark'){
+            return(
+                <SunIcon className="w-7 h-7 hover:fill-yellow-500" role="button" onClick={() => setTheme('light')} /> 
+            )
+        }else{
+            return(
+                <MoonIcon className="w-7 h-7 hover:fill-stone-900" role="button" onClick={() => setTheme('dark')} />
+            )
+        }
+    }
+
     return (
-        <div className='px-10 py-4 rounded shadow-md bg-amber-50 fixed top-0 z-10 w-full'>
+        <div className='px-10 py-4 rounded shadow-md bg-amber-50 text-black dark:bg-black dark:text-white fixed top-0 z-10 w-full'>
             {/* Large Screen navigation */}
             <nav className='flex justify-between items-center'>
                 <div className='flex items-center cursor-pointer'>
@@ -29,6 +56,8 @@ function Navigation() {
                     <li className='cursor-pointer'>Contact</li>
                 </ul>
 
+                {renderThemeChanger()}
+
                 <button onClick={() => setShowSideBar(!showSideBar)} className='lg:hidden'>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
@@ -37,7 +66,7 @@ function Navigation() {
             </nav>
 
             {/* Smaller devices navigation */}
-            <div className={`top-0 right-0 w-[380px] bg-lime-100 text-black dark:bg-zinc-700 dark:text-white p-10 pl-20 fixed h-full z-40 ease-in-out duration-300 ${showSideBar ? "translate-x-0" : "translate-x-full"}`}>
+            <div className={`top-0 right-0 w-[380px] bg-lime-100 text-black dark:bg-teal-900 dark:text-white p-10 pl-20 fixed h-full z-40 ease-in-out duration-300 ${showSideBar ? "translate-x-0" : "translate-x-full"}`}>
                 <nav>
                     <div className='flex justify-end'>
                         <button onClick={() => setShowSideBar(!showSideBar)}>

@@ -23,7 +23,7 @@
 
 @keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 255, 76, 0.4);
+    -webkit-box-shadow: 0 0 0 0 rgba(53, 231, 255, 0.4);
   }
   70% {
       -webkit-box-shadow: 0 0 0 10px rgba(255,0,0, 0);

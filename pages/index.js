@@ -1,6 +1,9 @@
 import Head from 'next/head'
 
 import Navigation from '../components/Navigation'
+import Landing from '../components/Landing'
+import About from '../components/About'
+import Education from '../components/Education'
 
 
 export default function Home() {
@@ -13,6 +16,9 @@ export default function Home() {
       </Head>
 
       <Navigation />
+      <Landing />
+      <About />
+      <Education />
       <h1 className='mt-20 text-center text-6xl font-bold'>Shalimar</h1>
     </div>
   )
