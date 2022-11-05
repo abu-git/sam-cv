@@ -61,7 +61,9 @@ function Navigation() {
                     <Link to='education' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
                         <li className='cursor-pointer'>Education</li>
                     </Link>
-                    <li className='cursor-pointer'>Projects</li>
+                    <Link to='projects' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Projects</li>
+                    </Link>
                     <li className='cursor-pointer'>Contact</li>
                 </ul>
 
@@ -95,7 +97,9 @@ function Navigation() {
                         <Link onClick={() => setShowSideBar(!showSideBar)} to='education' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
                             <li className='py-2 cursor-pointer'>Education</li>
                         </Link>
-                        <li className='py-2 cursor-pointer'>Projects</li>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='projects' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                            <li className='py-2 cursor-pointer'>Projects</li>
+                        </Link>
                         <li className='py-2 cursor-pointer'>Contact</li>
                     </ul>
                 </nav>

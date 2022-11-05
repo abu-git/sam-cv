@@ -4,6 +4,7 @@ import Navigation from '../components/Navigation'
 import Landing from '../components/Landing'
 import About from '../components/About'
 import Education from '../components/Education'
+import Projects from '../components/Projects'
 
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
       <Landing />
       <About />
       <Education />
-      
+      <Projects />
     </div>
   )
 }
