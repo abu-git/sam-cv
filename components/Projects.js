@@ -105,7 +105,7 @@ function Projects() {
                             height={433}
                             alt="okuta computer systems"
                             src="/okuta.jpg"
-                            className='brightness-[0.2] w-fit'
+                            className='brightness-[0.2] w-full'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Okuta Computer Systems</h4>
