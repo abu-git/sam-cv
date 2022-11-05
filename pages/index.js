@@ -5,6 +5,7 @@ import Landing from '../components/Landing'
 import About from '../components/About'
 import Education from '../components/Education'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <About />
       <Education />
       <Projects />
+      <Contact />
     </div>
   )
 }

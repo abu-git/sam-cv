@@ -108,7 +108,7 @@ function Projects() {
                             className='brightness-[0.2]'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
-                            <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Tashako Mobile</h4>
+                            <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Okuta Computer Systems</h4>
                         </div>
                     </div>
                     <span className='text-lg px-3 py-2 text-justify'>
