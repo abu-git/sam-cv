@@ -11,7 +11,7 @@ function About() {
 
                 <p className='text-2xl mb-4'>I am an avid JavaScript enthusiast and my current frontend framework of choice is Next.js combined with TailwindCSS. This is what I used to build this web application.</p>
 
-                <p className='text-2xl'>I also learn French in my spare time and have been doing so for almost a year now. &quot;Je lis un peu de francais&quot;.</p>
+                <p className='text-2xl'>I also learn French in my spare time and have been doing so for a while now. &quot;Je lis un peu de francais&quot;.</p>
             </section>
         </div>
     </>
