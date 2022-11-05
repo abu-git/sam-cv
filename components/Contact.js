@@ -40,6 +40,10 @@ function Contact() {
         e.preventDefault()
 
         let isValid = handleValidation()
+
+        if(isValid){
+            
+        }
     }
     
     return (
