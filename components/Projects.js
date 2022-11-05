@@ -15,7 +15,7 @@ function Projects() {
                             height={433}
                             alt="potiphar"
                             src="/potiphar.jpg"
-                            className='brightness-[0.2]'
+                            className='brightness-[0.2] w-fit'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Potiphar</h4>
@@ -33,7 +33,7 @@ function Projects() {
                             height={433}
                             alt="mahbuub"
                             src="/mahbuub.jpg"
-                            className='brightness-[0.2]'
+                            className='brightness-[0.2] w-fit'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Mahbuub Metals</h4>
@@ -51,7 +51,7 @@ function Projects() {
                             height={433}
                             alt="iamMHP"
                             src="/iammhp.jpg"
-                            className='brightness-[0.2]'
+                            className='brightness-[0.2] w-fit'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>iamMHP</h4>
@@ -69,7 +69,7 @@ function Projects() {
                             height={433}
                             alt="bigboyellis"
                             src="/bigboyellis.jpg"
-                            className='brightness-[0.2]'
+                            className='brightness-[0.2] w-fit'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>BigBoyEllis</h4>
@@ -87,7 +87,7 @@ function Projects() {
                             height={433}
                             alt="tashako mobile"
                             src="/tashako.jpg"
-                            className='brightness-[0.2]'
+                            className='brightness-[0.2] w-fit'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Tashako Mobile</h4>
@@ -105,7 +105,7 @@ function Projects() {
                             height={433}
                             alt="okuta computer systems"
                             src="/okuta.jpg"
-                            className='brightness-[0.2]'
+                            className='brightness-[0.2] w-fit'
                         />
                         <div className='absolute -mt-36 md:-mt-48 w-full'>
                             <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Okuta Computer Systems</h4>
