@@ -36,13 +36,28 @@ function Contact() {
         return isValid
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
 
         let isValid = handleValidation()
 
         if(isValid){
-            
+            const res = await fetch('/api/sendgrid', {
+                body: JSON.stringify({name: name, email: email, message: message}),
+                headers: {"Content-Type": "application/json"},
+                method: "POST"
+            })
+
+            const error = await res.json()
+            if(error.status !== 'Ok'){
+                console.log(error)
+                setFailure(true)
+                setSuccess(false)
+                return
+            }else{
+                setFailure(false)
+                setSuccess(true)
+            }
         }
     }
     
@@ -88,7 +103,7 @@ function Contact() {
                             type="text"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)} 
-                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white mr-3 py-1 px-2 text-xl focus:outline-none focus:border-black dark:focus:border-amber-100" placeholder="janedoe@example.com" aria-label="Full name"/>
+                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white mr-3 py-1 px-2 text-xl focus:outline-none focus:border-black dark:focus:border-amber-100" placeholder="janedoe@example.com" aria-label="Email"/>
                     </div>
                     <div className='mb-6'>
                         {errors?.message && (
@@ -98,8 +113,11 @@ function Contact() {
                             value={message}
                             onChange={(e) => setMessage(e.target.value)} 
                             rows="8" 
-                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white text-xl mr-3 py-1 px-2 focus:outline-none focus:border-black dark:focus:border-amber-100" type="text" placeholder="Your message..." aria-label="Message" />
+                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white text-xl mr-3 py-1 px-2 focus:outline-none focus:border-black dark:focus:border-amber-100" type="text" placeholder="Your message..." aria-label="Message" 
+                        />
                     </div>
+                    {success === true && <p className='text-green-500 my-2'>Your Message has been sent!</p>}
+                    {failure === true && <p className='text-red-500 my-2'>There is probably a network issue. Please try again later!</p>}
                     <div className='mb-4 flex justify-end'>
                         <button className='bg-stone-800 hover:bg-black dark:bg-amber-50 dark:hover:bg-amber-100 shadow-md hover:shadow-lg shadow-cyan-500/60 hover:shadow-purple-500/70 border-2 border-black text-white dark:text-black text-semibold text-lg py-1 px-2 rounded'>Send Message!</button>
                     </div>

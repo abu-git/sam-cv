@@ -3,7 +3,7 @@ import sgMail from '@sendgrid/mail'
 sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
 
 async function sendEmail(req, res){
-    console.log(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
+    //console.log(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
     
     try{
         await sgMail.send({
