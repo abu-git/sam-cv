@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { useTheme } from 'next-themes'
 import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function Navigation() {
     //sidebar state
@@ -36,22 +37,30 @@ function Navigation() {
         <div className='px-10 py-4 rounded shadow-md bg-amber-50 text-black dark:bg-black dark:text-white fixed top-0 z-10 w-full'>
             {/* Large Screen navigation */}
             <nav className='flex justify-between items-center'>
-                <div className='flex items-center cursor-pointer'>
-                    <div className='ripple-nav'>
-                        <Image 
-                            src='/samLogo.png'
-                            width={27}
-                            height={27}
-                            alt='Samuel Abu Logo'
-                        />
+                <Link to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                    <div className='flex items-center cursor-pointer'>
+                        <div className='ripple-nav'>
+                            <Image 
+                                src='/samLogo.png'
+                                width={27}
+                                height={27}
+                                alt='Samuel Abu Logo'
+                            />
+                        </div>
+                        <h4 className='ml-2 font-extrabold text-[21px]'>Samuel Abu</h4>
                     </div>
-                    <h4 className='ml-2 font-extrabold text-[21px]'>Samuel Abu</h4>
-                </div>
+                </Link>
 
                 <ul className='hidden lg:flex justify-between items-center w-2/3 text-[20px]'>
-                    <li className='cursor-pointer'>Home</li>
-                    <li className='cursor-pointer'>About</li>
-                    <li className='cursor-pointer'>Education</li>
+                    <Link to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Home</li>
+                    </Link>
+                    <Link to='about' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                        <li className='cursor-pointer'>About</li>
+                    </Link>
+                    <Link to='education' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                        <li className='cursor-pointer'>Education</li>
+                    </Link>
                     <li className='cursor-pointer'>Projects</li>
                     <li className='cursor-pointer'>Contact</li>
                 </ul>
@@ -77,9 +86,15 @@ function Navigation() {
                     </div>
 
                     <ul className='text-center py-8 text-[27px]'>
-                        <li className='py-2 cursor-pointer'>Home</li>
-                        <li className='py-2 cursor-pointer'>About</li>
-                        <li className='py-2 cursor-pointer'>Education</li>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='home' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                            <li className='py-2 cursor-pointer'>Home</li>
+                        </Link>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='about' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                            <li className='py-2 cursor-pointer'>About</li>
+                        </Link>
+                        <Link onClick={() => setShowSideBar(!showSideBar)} to='education' spy={true} smooth={true} offset={-60} duration={500} delay={500}>
+                            <li className='py-2 cursor-pointer'>Education</li>
+                        </Link>
                         <li className='py-2 cursor-pointer'>Projects</li>
                         <li className='py-2 cursor-pointer'>Contact</li>
                     </ul>
