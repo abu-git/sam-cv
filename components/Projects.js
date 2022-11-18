@@ -28,6 +28,26 @@ function Projects() {
                     </div>
                 </a>
 
+                <a target='_blank' href='https://www.tunesketch.com/' rel='noreferrer'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                        <div className='relative'>
+                            <Image 
+                                width={433}
+                                height={433}
+                                alt="tunesketch"
+                                src="/tunesketch.jpg"
+                                className='brightness-[0.2] w-full'
+                            />
+                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                                <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>tunesketch</h4>
+                            </div>
+                        </div>
+                        <span className='text-lg px-3 py-2 text-justify'>
+                            Multi Page web application with a MongoDB database for a music review entity.
+                        </span>
+                    </div>
+                </a>
+
                 <a target='_blank' href='https://tashakomobile.vercel.app/' rel='noreferrer'>
                     <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
                         <div className='relative'>
@@ -107,26 +127,6 @@ function Projects() {
                             Single Page web application for a musician.
                         </span>
                     </div>   
-                </a>
-                
-                <a target='_blank' href='https://okuta.vercel.app/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
-                        <div className='relative'>
-                            <Image 
-                                width={433}
-                                height={433}
-                                alt="okuta computer systems"
-                                src="/okuta.jpg"
-                                className='brightness-[0.2] w-full'
-                            />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
-                                <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Okuta Computer Systems</h4>
-                            </div>
-                        </div>
-                        <span className='text-lg px-3 py-2 text-justify'>
-                            Multi Page web application demo for a tech business.
-                        </span>
-                    </div>
                 </a>
                 
             </main>
