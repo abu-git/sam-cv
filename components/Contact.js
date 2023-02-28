@@ -90,7 +90,7 @@ function Contact() {
                             type="text"
                             value={name}
                             onChange={(e) => setName(e.target.value)} 
-                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white mr-3 py-1 px-2 text-xl focus:outline-none focus:border-black dark:focus:border-amber-100" placeholder="Jane Doe" aria-label="Full name"/>
+                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white mr-3 py-1 px-2 text-xl focus:outline-none focus:border-black dark:focus:border-amber-100" placeholder="Your Name" aria-label="Full name"/>
                     </div>
                     <div className='mb-6'>
                         {errors?.email && (
@@ -103,7 +103,7 @@ function Contact() {
                             type="text"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)} 
-                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white mr-3 py-1 px-2 text-xl focus:outline-none focus:border-black dark:focus:border-amber-100" placeholder="janedoe@example.com" aria-label="Email"/>
+                            className="appearance-none bg-transparent border-b-2 border-slate-400 w-full text-black dark:text-white mr-3 py-1 px-2 text-xl focus:outline-none focus:border-black dark:focus:border-amber-100" placeholder="Your Email" aria-label="Email"/>
                     </div>
                     <div className='mb-6'>
                         {errors?.message && (
