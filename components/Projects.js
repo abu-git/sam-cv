@@ -24,7 +24,7 @@ function Projects() {
                         </div>
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-justify'>
-                                Multi Page web application with a loader for better User Experience for a Canadian design company.
+                                Multi Page web application with a loader for better User Experience for a design company in Canada.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
