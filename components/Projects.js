@@ -9,7 +9,7 @@ function Projects() {
             <h3 className='text-4xl font-semibold text-center'>Projects</h3>
             <main className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-20'>
                 <a target='_blank' href='https://www.td-inspections.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -39,7 +39,7 @@ function Projects() {
                 </a>
 
                 <a target='_blank' href='https://www.tasedesign.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -69,7 +69,7 @@ function Projects() {
                 </a>
 
                 <a target='_blank' href='https://www.tunesketch.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -99,7 +99,7 @@ function Projects() {
                 </a>
 
                 <a target='_blank' href='https://www.potiphar.org/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -129,7 +129,7 @@ function Projects() {
                 </a>
 
                 <a target='_blank' href='https://tashakomobile.vercel.app/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -161,7 +161,7 @@ function Projects() {
                 
 
                 <a target='_blank' href='https://www.mahbuubmetals.com' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -192,7 +192,7 @@ function Projects() {
                 </a>
                 
                 <a target='_blank' href='https://www.iammhp.com' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -223,7 +223,7 @@ function Projects() {
                 </a>
                 
                 <a target='_blank' href='https://www.bigboyellis.com' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
