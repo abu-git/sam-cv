@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import validator from 'validator'
+import { motion } from 'framer-motion'
 
 function Contact() {
     const [name, setName] = useState('')
@@ -65,7 +66,11 @@ function Contact() {
     <>
         <div name="contact"></div>
         <div className='bg-amber-100 text-black dark:bg-stone-900 dark:text-white px-10 py-9'>
-            <h3 className='text-4xl font-semibold text-center'>Contact Me</h3>
+            <motion.h3 
+                initial={{y:-30, opacity: 0}}
+                whileInView={{y:0, opacity: 1}}
+                transition={{delay: 0.5}}
+                className='text-4xl font-semibold text-center'>Contact Me</motion.h3>
 
             {/*<div className='flex justify-center mt-6'>
                 <span className='mt-1'>
@@ -76,12 +81,20 @@ function Contact() {
                 <h4 className='text-2xl font-normal text-center ml-2'>+27 83 245 9000</h4>
     </div>*/}
 
-            <h4 className='mt-10 text-xl text-center'>you can drop me a message right here.</h4>
+            <motion.h4 
+                initial={{y:30, opacity: 0}}
+                whileInView={{y:0, opacity: 1}}
+                transition={{delay: 0.5}}
+                className='mt-10 text-xl text-center'>you can drop me a message right here.</motion.h4>
 
             
 
             <div className='flex justify-center mx-6 mt-14'>
-                <form onSubmit={handleSubmit} className='w-96'>
+                <motion.form 
+                    initial={{y:40, opacity: 0}}
+                    whileInView={{y:0, opacity: 1}}
+                    transition={{delay: 0.7}}
+                    onSubmit={handleSubmit} className='w-96'>
                     <div className='mb-6'>
                         {errors?.name && (
                             <p className='text-red-500 my-2'>Name cannot be empty</p>
@@ -121,7 +134,7 @@ function Contact() {
                     <div className='mb-4 flex justify-end'>
                         <button className='bg-stone-800 hover:bg-black dark:bg-amber-50 dark:hover:bg-amber-100 shadow-md hover:shadow-lg shadow-cyan-500/60 hover:shadow-purple-500/70 border-2 border-black text-white dark:text-black text-semibold text-lg py-1 px-2 rounded'>Send Message!</button>
                     </div>
-                </form>
+                </motion.form>
             </div>
         </div>  
     </>
