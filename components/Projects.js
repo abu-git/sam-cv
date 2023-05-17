@@ -1,15 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 function Projects() {
   return (
     <>
         <div name="projects"></div>
         <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 lg:px-40 py-9'>
-            <h3 className='text-4xl font-semibold text-center'>Projects</h3>
+            <motion.h3 
+                initial={{y:-30, opacity: 0}}
+                whileInView={{y:0, opacity: 1}}
+                transition={{delay: 0.5}}
+                className='text-4xl font-semibold text-center'>Projects</motion.h3>
             <main className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-20'>
                 <a target='_blank' href='https://www.remomogatosi.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.7}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -35,11 +44,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 </a>
 
                 <a target='_blank' href='https://www.td-inspections.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.8}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -65,11 +78,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 </a>
 
                 <a target='_blank' href='https://www.tasedesign.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.9}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -95,11 +112,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 </a>
 
                 <a target='_blank' href='https://www.tunesketch.com/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.7}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -125,11 +146,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 </a>
 
                 <a target='_blank' href='https://www.potiphar.org/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.8}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -155,11 +180,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>                      
-                    </div>
+                    </motion.div>
                 </a>
 
                 <a target='_blank' href='https://tashakomobile.vercel.app/' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.9}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -186,12 +215,16 @@ function Projects() {
                                 </span>
                             </button>
                         </div>        
-                    </div>
+                    </motion.div>
                 </a>
                 
 
                 <a target='_blank' href='https://www.mahbuubmetals.com' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.7}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -218,11 +251,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 </a>
                 
                 <a target='_blank' href='https://www.iammhp.com' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.8}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -249,11 +286,15 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>
+                    </motion.div>
                 </a>
                 
                 <a target='_blank' href='https://www.bigboyellis.com' rel='noreferrer'>
-                    <div className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                    <motion.div 
+                        initial={{y:40, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.9}}
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -280,7 +321,7 @@ function Projects() {
                                 </span>
                             </button>
                         </div>
-                    </div>   
+                    </motion.div>   
                 </a>
                 
             </main>
