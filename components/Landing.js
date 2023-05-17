@@ -8,7 +8,7 @@ function Landing() {
     <>
         <div name="home"></div>
         <div className='grid grid-cols-1 md:grid-cols-2 items-center mt-16 pb-9 px-10 bg-amber-100 dark:bg-stone-900'>
-            <div className='flex justify-center h-80'>
+            <div className='flex justify-center items-center h-80 lg:h-[30rem]'>
                 <motion.div
                   initial={{x:-30, opacity: 0}}
                   whileInView={{x:0, opacity: 1}}

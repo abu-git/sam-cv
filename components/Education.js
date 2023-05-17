@@ -6,13 +6,13 @@ function Education() {
   return (
     <>
         <div name="education"></div>
-        <div className='px-8 md:px-14 lg:px-56 py-9 bg-amber-100 text-black dark:bg-stone-900 dark:text-white'>
+        <div className='px-8 md:px-14 lg:px-56 py-9 lg:py-14 bg-amber-100 text-black dark:bg-stone-900 dark:text-white'>
             <motion.h3 
                 initial={{y:-30, opacity: 0}}
                 whileInView={{y:0, opacity: 1}}
                 transition={{delay: 0.5}}
                 className='text-4xl font-semibold text-center'>Education</motion.h3>
-            <main className='mt-7 grid grid-cols-1 md:grid-cols-2 gap-8'>
+            <main className='mt-7 grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center content-center'>
                 <motion.div 
                     initial={{y:30, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
