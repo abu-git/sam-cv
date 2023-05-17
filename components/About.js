@@ -11,6 +11,7 @@ function About() {
               whileInView={{x:0, opacity: 1}}
               transition={{delay: 0.7}}
               className='text-4xl font-semibold text-center'>About Me</motion.h3>
+              
             <section className='mt-4 md:mt-0'>
                 <motion.p
                   initial={{x:-60, opacity: 0}}
