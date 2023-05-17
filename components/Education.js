@@ -6,7 +6,7 @@ function Education() {
   return (
     <>
         <div name="education"></div>
-        <div className='px-8 md:px-14 py-9 bg-amber-100 text-black dark:bg-stone-900 dark:text-white'>
+        <div className='px-8 md:px-14 lg:px-56 py-9 bg-amber-100 text-black dark:bg-stone-900 dark:text-white'>
             <motion.h3 
                 initial={{y:-30, opacity: 0}}
                 whileInView={{y:0, opacity: 1}}

@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
         <div name="projects"></div>
-        <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 lg:px-40 py-9'>
+        <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 lg:px-56 py-9'>
             <motion.h3 
                 initial={{y:-30, opacity: 0}}
                 whileInView={{y:0, opacity: 1}}
