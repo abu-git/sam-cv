@@ -4,7 +4,7 @@ import { AnimatePresence } from 'framer-motion'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <AnimatePresence>
+    <AnimatePresence onExitComplete>
       <ThemeProvider enableSystem={true} attribute="class">
         <Component {...pageProps} />
       </ThemeProvider>
