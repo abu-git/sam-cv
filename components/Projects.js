@@ -219,7 +219,7 @@ function Projects() {
                 </a>
                 
 
-                <a target='_blank' href='https://www.mahbuubmetals.com' rel='noreferrer'>
+                <a target='_blank' href='https://mahbuubmetals.vercel.app' rel='noreferrer'>
                     <motion.div 
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
