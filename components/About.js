@@ -5,7 +5,7 @@ function About() {
   return (
     <>
         <div name="about"></div>
-        <div className='px-8 md:px-12 py-10 bg-amber-50 text-black dark:bg-black dark:text-white grid grid-cols-1 md:grid-cols-2 items-center lg:h-[30rem]'>
+        <div className='px-8 md:px-12 py-10 bg-amber-50 text-black dark:bg-black dark:text-white grid grid-cols-1 md:grid-cols-2 items-center'>
             <motion.h3 
               initial={{x:30, opacity: 0}}
               whileInView={{x:0, opacity: 1}}

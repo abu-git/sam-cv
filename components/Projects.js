@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
         <div name="projects"></div>
-        <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 lg:px-56 py-9'>
+        <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 lg:px-24 py-9'>
             <motion.h3 
                 initial={{y:-30, opacity: 0}}
                 whileInView={{y:0, opacity: 1}}
@@ -18,7 +18,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.7}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -27,13 +27,13 @@ function Projects() {
                                 src="/remo.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Remo</h4>
                             </div>
                         </div>
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Web Application for a Researcher and Analyst
+                                Researcher and Analyst
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -52,7 +52,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.8}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -61,13 +61,13 @@ function Projects() {
                                 src="/tdinspections.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>TD Inspections</h4>
                             </div>
                         </div>
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Multi Page web application for a home inspections company.
+                                A home inspections company.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -86,7 +86,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.9}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -95,13 +95,13 @@ function Projects() {
                                 src="/tasedesign.jpg"
                                 className='brightness-[0.4] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Tase Design</h4>
                             </div>
                         </div>
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Multi Page web application with a loader for better User Experience for a design company.
+                                A design company.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -120,7 +120,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.7}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -129,13 +129,13 @@ function Projects() {
                                 src="/tunesketch.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>tunesketch</h4>
                             </div>
                         </div>
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Multi Page web application with a MongoDB database for a music review entity.
+                                African Music Blog.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -154,7 +154,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.8}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -163,13 +163,13 @@ function Projects() {
                                 src="/potiphar.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Potiphar</h4>
                             </div>
                         </div>
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Multi Page web application for a branding and digital marketing business.
+                                Digital Marketing Business.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -188,7 +188,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.9}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -197,14 +197,14 @@ function Projects() {
                                 src="/tashako.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Tashako Mobile</h4>
                             </div>
                         </div>
                         
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Single Page web application demo for a tech retail business.
+                                Fictional tech retail business.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -224,7 +224,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.7}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -233,14 +233,14 @@ function Projects() {
                                 src="/mahbuub.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>Mahbuub Metals</h4>
                             </div>
                         </div>
                         
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Single Page web application for an eco-friendly recycling business.
+                               Eco-friendly recycling business.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -259,7 +259,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.8}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -268,14 +268,14 @@ function Projects() {
                                 src="/iammhp.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>iamMHP</h4>
                             </div>
                         </div>
                         
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Multi Page web application for a musician catalogue.
+                                A musician catalogue.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
@@ -294,7 +294,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.9}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden h-[32rem] lg:h-[38rem]'>
+                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -303,14 +303,14 @@ function Projects() {
                                 src="/bigboyellis.jpg"
                                 className='brightness-[0.2] w-full'
                             />
-                            <div className='absolute -mt-36 md:-mt-48 w-full'>
+                            <div className='absolute -mt-36 md:-mt-40 w-full'>
                                 <h4 className='brightness-100 font-bold text-4xl text-white px-5 text-center'>BigBoyEllis</h4>
                             </div>
                         </div>
                         
                         <div className='flex flex-col justify-between'>
                             <span className='text-lg px-3 py-2 text-center'>
-                                Single Page web application for a musician.
+                                A musician website.
                             </span>
                             <button className='flex justify-center pt-9 pb-4 pl-3 text-md lg:text-lg text-gray-500 dark:text-gray-500'>
                                 <h4>VIEW APP</h4>
