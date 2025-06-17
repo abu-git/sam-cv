@@ -68,7 +68,7 @@ function Projects() {
                         <Image
                             height={1920}
                             width={921}
-                            alt="tunesketch android app"
+                            alt="intelect africa android app"
                             src='/ia-portrait.png'
                         />
                     </motion.div>
