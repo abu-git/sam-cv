@@ -6,7 +6,7 @@ function Education() {
   return (
     <>
         <div name="education"></div>
-        <div className='px-8 md:px-14 lg:px-56 py-9 lg:py-14 bg-amber-100 text-black dark:bg-stone-900 dark:text-white'>
+        <div className='px-8 md:px-14 lg:px-56 py-9 lg:py-14 bg-amber-50 text-black dark:bg-black dark:text-white'>
             <motion.h3 
                 initial={{y:-30, opacity: 0}}
                 whileInView={{y:0, opacity: 1}}
@@ -17,7 +17,7 @@ function Education() {
                     initial={{y:30, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
                     transition={{delay: 0.7}}
-                    className='w-full overflow-hidden rounded-lg shadow-lg flex bg-amber-50 dark:bg-stone-700'>
+                    className='w-full overflow-hidden rounded-lg shadow-lg flex bg-amber-100 dark:bg-stone-700'>
                     <div className='w-1/3'>
                         <Image 
                             src="/hyperion.png"
@@ -36,7 +36,7 @@ function Education() {
                     initial={{y:30, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
                     transition={{delay: 0.9}}
-                    className='w-full overflow-hidden rounded-lg shadow-lg flex bg-amber-50 dark:bg-stone-700'>
+                    className='w-full overflow-hidden rounded-lg shadow-lg flex bg-amber-100 dark:bg-stone-700'>
                     <div className='w-1/3'>
                         <Image 
                             src="/uwcLogo.png"
@@ -56,7 +56,7 @@ function Education() {
                     initial={{y:30, opacity: 0}}
                     whileInView={{y:0, opacity: 1}}
                     transition={{delay: 1.1}}
-                    className='w-full md:w-1/2 overflow-hidden rounded-lg shadow-lg flex bg-amber-50 dark:bg-stone-700'>
+                    className='w-full md:w-1/2 overflow-hidden rounded-lg shadow-lg flex bg-amber-100 dark:bg-stone-700'>
                     <div className='w-1/3'>
                         <Image 
                             src="/udsslogo.jpg"

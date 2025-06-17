@@ -39,8 +39,9 @@ export default function Home() {
       <Navigation />
       <Landing />
       <About />
-      <Education />
+      
       <Projects />
+      <Education />
       <Contact />
       <Footer />
       <Whatsapp />

@@ -131,7 +131,7 @@ function Contact() {
                     </div>
                     {success === true && <p className='text-green-500 my-2'>Your Message has been sent!</p>}
                     {failure === true && <p className='text-red-500 my-2'>There is probably a network issue. Please try again later!</p>}
-                    <div className='mb-4 flex justify-end'>
+                    <div className='mb-4 flex justify-center'>
                         <button className='bg-stone-800 hover:bg-black dark:bg-amber-50 dark:hover:bg-amber-100 shadow-md hover:shadow-lg shadow-cyan-500/60 hover:shadow-purple-500/70 border-2 border-black text-white dark:text-black text-semibold text-lg py-1 px-2 rounded'>Send Message!</button>
                     </div>
                 </motion.form>

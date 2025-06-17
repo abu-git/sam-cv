@@ -6,19 +6,111 @@ function Projects() {
   return (
     <>
         <div name="projects"></div>
-        <div className='bg-amber-50 text-black dark:bg-black dark:text-white px-10 md:px-20 lg:px-24 py-9'>
+        <div className='bg-amber-100 text-black dark:bg-stone-900 dark:text-white px-10 md:px-20 lg:px-24 py-9'>
+            {/*<motion.h3 
+                initial={{y:-30, opacity: 0}}
+                whileInView={{y:0, opacity: 1}}
+                transition={{delay: 0.5}}
+                className='text-4xl font-semibold text-center'>Projects</motion.h3>*/}
+
+            
+            <motion.h3 
+                initial={{y:30, opacity: 0}}
+                whileInView={{y:0, opacity: 1}}
+                transition={{delay: 0.5}}
+                className='text-3xl font-semibold text-center pt-10 lg:pt-16 pb-3 underline underline-offset-8'>Mobile Development Projects</motion.h3>
+
+            {/* tunesketch app */}
+            <main className='mt-10 grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8 md:gap-20'>
+                <motion.div 
+                    initial={{y:-30, opacity: 0}}
+                    whileInView={{y:0, opacity: 1}}
+                    transition={{delay: 0.5}}
+                    className='flex items-center justify-center lg:justify-end'>
+                    <div className='flex flex-col items-center'>
+                        <h5 className='text-3xl font-bold'>tunesketch</h5>
+                        <p className='text-xl pt-1 text-center'>A music promotions app for Africans in Africa and the whole Diaspora</p>
+                        <p className='text-md pt-3 text-center'>Available for Android devices</p>
+                        <div className='pt-5'>
+                            <a href='https://play.google.com/store/apps/details?id=com.abu.sammie.tunesketch18' target='_blank' rel='noreferrer'>
+                                <Image
+                                    height={47}
+                                    width={149}
+                                    src="/googleplay.png"
+                                    alt="Google Play png"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </motion.div>
+                <motion.div 
+                    initial={{y:30, opacity: 0}}
+                    whileInView={{y:0, opacity: 1}}
+                    transition={{delay: 0.5}}
+                    className='lg:w-96'>
+                    <Image
+                        height={1920}
+                        width={921}
+                        alt="tunesketch android app"
+                        src='/tunesketch-portrait.png'
+                    />
+                </motion.div>
+            </main>
+
+            {/* Intelect Africa app */}
+            <main className='mt-10 lg:mt-20 grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-8 md:gap-20'>
+                <div className='flex lg:justify-end order-2 lg:order-1'>
+                    <motion.div 
+                        initial={{y:30, opacity: 0}}
+                        whileInView={{y:0, opacity: 1}}
+                        transition={{delay: 0.5}}
+                        className='lg:w-96'>
+                        <Image
+                            height={1920}
+                            width={921}
+                            alt="tunesketch android app"
+                            src='/ia-portrait.png'
+                        />
+                    </motion.div>
+                </div>
+                
+                <motion.div 
+                    initial={{y:-30, opacity: 0}}
+                    whileInView={{y:0, opacity: 1}}
+                    transition={{delay: 0.5}}
+                    className='flex items-center justify-center lg:justify-start order-1 lg:order-2'>
+                    <div className='flex flex-col items-center lg:pr-44'>
+                        <h5 className='text-3xl font-bold'>Intelect Africa</h5>
+                        <p className='text-xl pt-1 text-center'>An African-centered hub to inform and inspire Africa&apos;s future using compelling narratives.</p>
+                        <p className='text-md pt-3 text-center'>Available for Android devices</p>
+                        <div className='pt-5'>
+                            <a href='https://play.google.com/store/apps/details?id=com.abu.sammie.intelectafrica' target='_blank' rel='noreferrer'>
+                                <Image
+                                    height={47}
+                                    width={149}
+                                    src="/googleplay.png"
+                                    alt="Google Play png"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </motion.div>
+            </main>
+
             <motion.h3 
                 initial={{y:-30, opacity: 0}}
                 whileInView={{y:0, opacity: 1}}
                 transition={{delay: 0.5}}
-                className='text-4xl font-semibold text-center'>Projects</motion.h3>
+                className='text-3xl font-semibold text-center pt-10 lg:pt-16 pb-3 underline underline-offset-8'>Web Development Projects</motion.h3>
+
+
             <main className='mt-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-20'>
                 <a target='_blank' href='https://www.remomogatosi.com/' rel='noreferrer'>
                     <motion.div 
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.7}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden'>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden'>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -52,7 +144,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.8}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -86,7 +178,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.9}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -120,7 +212,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.7}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -154,7 +246,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.8}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -188,7 +280,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.9}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -224,7 +316,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.7}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -259,7 +351,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.8}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
@@ -294,7 +386,7 @@ function Projects() {
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
                         transition={{delay: 0.9}}
-                        className='flex flex-col cursor-pointer bg-amber-100 dark:bg-stone-800 rounded drop-shadow-lg overflow-hidden '>
+                        className='flex flex-col cursor-pointer bg-amber-50 dark:bg-black rounded drop-shadow-lg overflow-hidden '>
                         <div className='relative'>
                             <Image 
                                 width={433}
