@@ -15,9 +15,9 @@ export default function Home() {
     <div>
       <Head>
         <title>Samuel Abu&apos;s Portfolio</title>
-        <meta name="description" content="A digital CV and portfolio of Samuel Abu" />
+        <meta name="description" content="A digital portfolio of Samuel Abu" />
         <meta property='og:title' content="Developer and Creative" />
-        <meta property='og:description' content="A digital CV and portfolio of Samuel Abu" />
+        <meta property='og:description' content="A digital portfolio of Samuel Abu" />
         <meta  property='og:image' itemProp="image" content='https://res.cloudinary.com/dbqn6vejg/image/upload/v1667741571/meta_fincj7.jpg'/>
         <meta  property='og:image:secure_url' content='https://res.cloudinary.com/dbqn6vejg/image/upload/v1667741571/meta_fincj7.jpg'/>
         <meta property="og:url" content="https://sam-cv.vercel.app/" />
