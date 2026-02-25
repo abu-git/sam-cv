@@ -241,7 +241,7 @@ function Projects() {
                     </motion.div>
                 </a>
 
-                <a target='_blank' href='https://www.iammhp.com' rel='noreferrer'>
+                <a target='_blank' href='https://iammhp.vercel.app/' rel='noreferrer'>
                     <motion.div 
                         initial={{y:40, opacity: 0}}
                         whileInView={{y:0, opacity: 1}}
