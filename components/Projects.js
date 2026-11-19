@@ -9,11 +9,11 @@ function Projects() {
         { name: 'Remo', desc: 'Researcher and Analyst', href: 'https://www.remomogatosi.com/', img: '/remo.jpg' },
         { name: 'TD Inspections', desc: 'A home inspections company.', href: 'https://www.td-inspections.com/', img: '/tdinspections.jpg' },
         { name: 'Tase Design', desc: 'A design company.', href: 'https://tase-design.vercel.app/', img: '/tasedesign.jpg' },
+        { name: 'Tase Group', desc: 'Construction Industry Solutions', href: 'https://www.tasegroup.org', img: '/tasegroup.png' },
         { name: 'tunesketch', desc: 'African Music Blog.', href: 'https://www.tunesketch.com/', img: '/tunesketch.jpg' },
         { name: 'iamMHP', desc: 'A musician catalogue.', href: 'https://iammhp.vercel.app/', img: '/iammhp.jpg' },
         { name: 'BigBoyEllis', desc: 'A musician website.', href: 'https://www.bigboyellis.com', img: '/bigboyellis.jpg' },
-        { name: 'Potiphar', desc: 'Digital Marketing Business.', href: 'https://potiphar.vercel.app/', img: '/potiphar.jpg' },
-        { name: 'Tashako Mobile', desc: 'Fictional tech retail business.', href: 'https://tashakomobile.vercel.app/', img: '/tashako.jpg' },
+        { name: 'Potiphar', desc: 'Digital Marketing Business.', href: 'https://potiphar.vercel.app/', img: '/potiphar.jpg' }
     ]
 
     return (
